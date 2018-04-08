@@ -1,0 +1,154 @@
+/* Common CSS */
+body{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a:link {color: gray; text-decoration: none}
+a:visited {color: gray; text-decoration: none}
+a:hover {color: black; text-decoration: none}
+a:active {color: black; text-decoration: none}
+
+/* Common CSS per Section */
+.menu {
+  padding: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.branding {
+  padding: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.projects {
+  padding: 0px;
+}
+
+/* Main Menu */
+.menu_center{
+  text-align: center;
+}
+
+.small_menu_about, .small_menu_design, .small_menu_contact, .small_menu_engineering {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.small_menu_design {
+  margin-right: 5px;
+}
+
+.small_menu_engineering, .small_menu_about {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.small_menu_contact {
+  margin-left: 5px;
+}
+
+.big_menu {
+  position: relative;
+  z-index: 2;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.box {
+  position: absolute;
+  z-index: 1;
+  width: 1em;
+  height: 1em;
+  background-color: #87E6EC;
+}
+
+/* Branding Section */
+.branding_container {
+  position: relative;
+}
+
+.main_copy {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.and {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+
+.and_line {
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+  height: 0.5em;
+  background-color: yellow;
+}
+
+/* Project Section */
+.slash {
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 1em;
+  height: 3px;
+  border: 3px solid #ACFFE7;
+  border-radius: 3px;
+  -webkit-transform:
+    translateY(3px)
+    translateX(-8px)
+    rotate(-50deg);
+}
+
+.project_category {
+  position: relative;
+  z-index: 2;
+}
+
+.project_table {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.project_image {
+  width: 100%;
+}
+
+.project_title {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.project_cell_left {
+  width: 33%;
+  height: 10em;
+  padding-right: 10px;
+}
+
+.project_cell_mid {
+  width: 33%;
+  height: 10em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.project_cell_right {
+  width: 33%;
+  height: 10em;
+  padding-left: 10px;
+}
